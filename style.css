@@ -22,8 +22,8 @@ ul{
   list-style: none;
 }
 img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 button{
   background-color: var(--primary-color);
@@ -104,12 +104,27 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color:black;
+  height: 100vh;
+}
+#About p{
+  font-size: 30px;
+  color:var(--secondary-color)
 }
 #Projects{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  height: 100vh;
+
+}
+#Projects ul li a{
+  text-decoration: none;
+  color:var(--secondary-color);
+  font-weight: bold;
+
 
 }
 #Skills{
@@ -117,12 +132,34 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+#Skills table{
+  color:var(--secondary-color);
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12rem 0;
+}
+#Skills table,th,td{
+  border: 1px solid #ddd;
+  padding:0.5rem;
+}
+#Skills th{
+  background-color: #f2f2f2;
+  color:black
 }
 #Experience{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+#Experience p{
+  color:var(--secondary-color);
+  font-size: 30px;
 }
 #Contact{
   display: flex;
@@ -131,18 +168,8 @@ main{
   align-items: center
 
 }
-table{
-  width: 100%;
-  border-collapse: collapse;
-  margin: 12rem 0;
-}
-table,th,td{
-  border: 1px solid #ddd;
-  padding:0.5rem;
-}
-th{
-  background-color: #f2f2f2;
-}
+
+
 footer{
   background-color: var(--primary-color);
   color: var(--secondary-color);
